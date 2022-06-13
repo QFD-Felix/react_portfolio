@@ -1,0 +1,92 @@
+.contact{
+    background-color: white;
+    position: relative;
+
+    .bar{
+        width: 40px;
+        height: 100%;
+        background-color: rgb(199, 209, 248);
+        position: absolute;
+    }
+
+    .wrapper{
+        padding-left: 70px;
+        padding-top: 20px;
+        display: flex;
+
+        .left{
+            flex: 0.4;
+            // background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            h1{
+                font-weight:800;
+                font-size: 80px;
+            }
+            
+            .info-wrapper{
+                display: flex;
+                align-items: center;
+                margin: 40px 0px;
+                font-weight: 500;
+                margin-left: 30px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .right{
+            flex: 0.5;
+            
+            margin-top: 20px;
+            // background-color: blue;
+            h3{
+                font-weight: 300;
+            }
+
+            form{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 50%;
+                    height: 50px;
+                    border: none;
+                    border-bottom: 1px solid black;
+                    margin: 10px 0px;
+                    font-size: 14px;
+                    padding-left: 10px;
+                }
+
+                textarea{
+                    width: 90%;
+                    margin: 10px 0px;
+                    font-size: 14px;
+                    padding: 15px;
+
+                }
+
+                button{
+                    border: none;
+                    padding: 10px;
+                    width: 100px;
+                    background-color: lightgrey;
+                    font-size: 15px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+
+                span{
+                    font-size: 15px;
+                    padding-top: 15px;
+                    font-weight: 300;
+                }
+            }
+
+        }
+    }
+}
