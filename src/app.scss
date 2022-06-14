@@ -1,10 +1,13 @@
 .app{
-    height: calc(100vh - 70px);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
         margin-top: 62px; // TODO: why gap here when 70px?
+        margin-right: 0px;
         background-color: lightsalmon;
         position: absolute;
         // top: 70px;
