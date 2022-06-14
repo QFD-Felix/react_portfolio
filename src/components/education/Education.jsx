@@ -25,7 +25,7 @@ export default function Education() {
 
       <div className="right">
         <div className="uofa-campus">
-          <img src="assets/ualberta-north-campus.jpeg" alt=""/>
+          <img src="assets/ualberta-north-campus.png" alt=""/>
         </div>
         <div className="uofa-logo">
           <img src="assets/uofa_logo.png" alt=""/>

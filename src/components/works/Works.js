@@ -32,7 +32,7 @@ export default function Works() {
               </div>
 
               <div className="right">
-                <img src="assets/SLIS_logo.jpeg" alt="" className="SLIS"/>
+                <img src="assets/SLIS_logo.png" alt="" className="SLIS"/>
                 <img src="assets/archive_it_logo.png" alt = ""/>
               </div>
             </div>
